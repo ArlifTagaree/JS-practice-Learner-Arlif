@@ -2,22 +2,23 @@ function getGrade(percentage) {
 
   // Your code here
   if(percentage >= 80){
-      return console.log('A')
+      return 'A'
     } else if (percentage >= 70 && percentage <= 79){
-      return console.log('B')
+      return 'B'
     } else if (percentage >= 60 && percentage <= 69){
-      return console.log('C')
+      return 'C'
     } else if (percentage >= 50 && percentage <= 59){
-      return console.log('D')
+      return 'D'
     } else if (percentage < 50){
-      return console.log('F')
+      return 'F'
 
 }
 
 }
-getGrade(75);
-getGrade(80);
-getGrade(45)
+console.log(getGrade(75)) ;
+console.log(getGrade(80)) ;
+console.log(getGrade(45)) ;
+
 
 
 module.exports = getGrade;

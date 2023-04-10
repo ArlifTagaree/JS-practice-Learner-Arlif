@@ -2,16 +2,16 @@ function ageClassification(age) {
 
     // Your code here
     if(age <= 18){
-        return console.log('Minor')
+        return 'Minor'
     } else if (age >18 && age < 65){
-        return console.log('Adult')
+        return 'Adult'
     } else {
-        return console.log('Senior')
+        return 'Senior'
     }
 
 }
 
-ageClassification(16)
+console.log(ageClassification(16)); 
 
 
 module.exports = ageClassification
